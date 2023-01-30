@@ -55,7 +55,7 @@ const CreateStory = () => {
 
   const handleShow = () => {
     if (!session) {
-      window.location.href = "/auth/login?callback=/";
+      window.location.href = "https://acounts.unlimitpotential.com";
     } else {
       setShowModal(true);
     }
